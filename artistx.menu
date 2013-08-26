@@ -1,0 +1,8 @@
+LABEL ARTISTXLIVE
+MENU LABEL ^ArtistX Live 1.2
+kernel er/plugins/artistx/vmlinuz
+INITRD er/plugins/artistx/initrd.gz
+APPEND vga=normal boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/artistx/ ramdisk_size=200000 nolock vga=791
+TEXT HELP
+                 Artistx Live.
+ENDTEXT

@@ -1,0 +1,7 @@
+.:
+artistxmain.menu
+artistx.menu
+artistx.png
+filelist.txt
+initrd.gz
+vmlinuz
